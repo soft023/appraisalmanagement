@@ -25,7 +25,7 @@
 <div class="col-md-12 col-sm-12 col-xs-12">
 
 <div class="panel panel-default">
-<div class="panel-heading">
+<div class="panel-heading">     
 All Staff
 </div>
 <div class="panel-body">
@@ -59,7 +59,7 @@ All Staff
 @endif
 <td>{{ $staff['department']}}</td>
 <td>{{ $staff['employmentstatus']}}</td>
-<th><img src="{{asset('/staffpics/').'/'.$staff['profilepic']}}" )}}" class="img-responsive w3-circle w3-animate-zoom w3-hover-opacity" width="50px" height="50px" alt="Staff Image"/></th>
+<th><img src="{{asset('/staffpics/').'/'.$staff['profilepic']}}" class="img-responsive w3-circle w3-animate-zoom w3-hover-opacity" width="50px" height="50px" alt="Staff Image"/></th>
 <td> <a class="btn btn-success " href="hrstaffinformation/{{$staff['id']}}" ><i class="fa fa-edit"></i><b>View more</b></a></td>
 <td> <a class="btn btn-primary " href="hrstaffupdateform/{{$staff['id']}}" ><i class="fa fa-edit"></i><b>Update</b></a></td>
 

@@ -27,6 +27,7 @@ Route::get('/qualtacceptanceform', 'HomeController@showqualtacceptanceform')->na
 Route::get('/quantacceptanceform', 'HomeController@showquantacceptanceform')->name('quantacceptanceform');
 Route::get('/appraisalform', 'HomeController@showappraisalform')->name('appraisalform');
 Route::get('/appraisalhistory', 'HomeController@showlistofappraisals')->name('appraisalhistory');
+
 //POST REQUESTS
 
 Route::post('/submitappraisal', 'HomeController@submitappraisal')->name('submitappraisal');
@@ -102,3 +103,8 @@ Route::post('/mdappraisalform', 'MdController@appraisalform')->name('mdappraisal
 Route::post('/mdsubmitappraisal', 'MdController@submitappraisal')->name('mdsubmitappraisal');
 Route::post('/mdfulldetails', 'MdController@fulldetails')->name('mdfulldetails');
 
+//------------------POLICY-----------------------------------------------------
+Route::get('/ourpolicies', 'PolicyController@ourpolicies')->name('ourpolicies');
+Route::get('/policies/dresscode', 'PolicyController@dresscode')->name('dresscode');
+Route::get('/policies/hr', 'PolicyController@hr')->name('hr');
+Route::get('/policies/operations', 'PolicyController@operations')->name('operations');

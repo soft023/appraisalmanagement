@@ -130,10 +130,24 @@ foreach ($ref as $key ) {
 	$ref = $key->ref;
 }
 
-
-$userid = Input::get('userid');
-$pos = Input::get('position');
 $dep = Input::get('department');
+$userid = Input::get('userid');
+
+
+$user =  User::all()->where('id',$userid);
+foreach ($user as $key ) {
+	$sup = $key->supervisor;
+}
+
+
+if($sup == "Sherifdeen Rabiu"){
+	$dep = "MD OFFICE";
+}
+
+
+$userid = $userid;
+$pos = Input::get('position');
+$dep = $dep;
 $code = Input::get('code');
 $weight = Input::get('weight');
 $target =  Input::get('target');
@@ -226,6 +240,19 @@ foreach ($ref as $key ) {
 	$ref = $key->ref;
 }
 
+$dep = Input::get('department');
+$userid = Input::get('userid');
+
+
+$user =  User::all()->where('id',$userid);
+foreach ($product as $key ) {
+	$sup = $key->supervisor;
+}
+
+
+if($sup == "Sherifdeen Rabiu"){
+	$dep = "MD OFFICE";
+}
 
 $a = Input::get('acctopentarget');
 $a  = str_replace( ',', '', $a );
@@ -387,7 +414,6 @@ $totalscore = $tot * 0.7 * 100 ;
 $userid = Input::get('userid');
 $code = Input::get('code');
 $pos = Input::get('position');
-$dep = Input::get('department');
 
 $userinfo = Generalappraisal::all()->where('userid',$userid)->where('code',$code);
 
@@ -398,7 +424,6 @@ foreach ($userinfo as $key) {
 	$lnam = $key->lastname;
 	$gid = $key->id;
 	$position = $key->position;
-	$department = $key->department;
 	$ref = $key->ref;
 
 }
@@ -421,7 +446,7 @@ $appraisal->code = $code;
 $appraisal->firstname = $fna;
 $appraisal->lastname = $lnam;
 $appraisal->position = $position;
-$appraisal->department = $department;
+$appraisal->department = $dep;
 $appraisal->finconname  = $fname;
 
 

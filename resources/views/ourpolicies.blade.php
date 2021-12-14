@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-<title>BGMFB Staff Management System</title>
+<title>BGMFB Policies</title>
 <meta content="" name="descriptison">
 <meta content="" name="keywords">
 
@@ -56,7 +56,7 @@ a:hover {
 <ul>
 <li class=""><a href="/">Home</a></li>
 <li class=""><a href="/ourpolicies">Our Policies</a></li>
-<li class=""><a href="/login">Login</a></li>
+
 </ul>
 </nav><!-- .nav-menu -->
 
@@ -64,18 +64,25 @@ a:hover {
 </header><!-- End Header -->
 
 <!-- ======= Hero Section ======= -->
-<section id="hero" class="d-flex align-items-center">
+<section id="hero">
 
 <div class="container">
 <div class="row">
-<div class="col-md-6 col-sm-12 col-xs-12 w3-animate-zoom"><br><br><br><br>
-<h1>Balogun Gambari Microfinance Bank LTD</h1>
-<h2>Introducing, the Staff Management System for your appraisal management</h2>
-<a href="/login" class="btn-get-started scrollto">Get Started</a>
+<div class="col-md-12 col-sm-12 col-xs-12 w3-animate-zoom">
+
+<h1>Balogun Gambari Microfinance Bank Policies</h1>
+<i class="w3-text-red"><h5>Please note that all the policies of the Bank is strictly confidential, any attempt to copy or share would be prosecuted accordingly.</h5></i>
 </div>
-<div class="col-md-1 col-sm-12 col-xs-12 hero-img"><br><br>
-<img src="../img/hero-img.svg" class=" animated" alt="">
+
+<div class="col-md-12 col-sm-12 col-xs-12"><br><br><br>
+<a href="/policies/hr" class="btn btn-lg btn-outline-danger">HRM DISCIPLINARY PROCESS AND SANCTIONS GRID POLICY </a> <br><br>
+<a href="/policies/operations"  class="btn btn-lg btn-outline-danger">OPERATIONS POLICY MANUAL</a> <br><br>
+<a href="/policies/dresscode"  class="btn btn-lg btn-outline-danger">DRESS CODE POLICY</a> 
+
 </div>
+
+
+
 </div>
 </div>
 
@@ -86,81 +93,7 @@ a:hover {
 
 <!-- ======= Mission and Vission Section ======= -->
 
-<br><br><br><br><br><br>
 
-<div class="w3-container">
-<div class="row">
-<div class="col-md-1 col-sm-12 col-xs-12"></div>
-<div class="col-md-10 col-sm-12 col-xs-12">
-<div class="panel panel-back noti-box">
-<span class="icon-box bg-color-red set-icon">
-  <i class="fa fa-envelope-o"></i>
-</span>
-<div>
-  <h4 class="w3-panel w3-red">Our Vision</h4>
-  <p class="text-muted">To be the leading Microfinance service provider in Nigeria</p>
-</div>
-</div>
-</div>
-<div class="col-md-1 col-sm-12 col-xs-12"></div>
-</div>
-
-
-
-
-<div class="row">
-<div class="col-md-1 col-sm-12 col-xs-12"></div>
-<div class="col-md-10 col-sm-12 col-xs-12">
-<div class="panel panel-back noti-box">
-<span class="icon-box bg-color-red set-icon">
-  <i class="fa fa-envelope-o"></i>
-</span>
-<div >
-  <h4 class="w3-panel w3-red">Our Mission</h4>
-  <p class="text-muted">To create a better and thriving financial inclusiveness among the low income groups, through provision and access to financial services, while adding value to stakeholders.</p>
-</div>
-</div>
-</div>
-<div class="col-md-1 col-sm-12 col-xs-12"></div>
-</div>
-
-
-
-
-<div class="row">
-<div class="col-md-1 col-sm-12 col-xs-12"></div>
-<div class="col-md-10 col-sm-12 col-xs-12">
-<div class="panel panel-back noti-box">
-<span class="icon-box bg-color-red set-icon">
-  <i class="fa fa-envelope-o"></i>
-</span>
-<div class="text-box" >
-  <h4 class="w3-panel w3-red">Our Objectives</h4>
-  <ul>
-    <li class="text-muted w3-card" >  To drive service excellence. </li><br>  
-    <li class="text-muted w3-card">  To drive employee productivity. </li><br>  
-    <li class="text-muted w3-card">  To ensure compliance with relevant regulations and policies. </li><br>   
-    <li class="text-muted w3-card">  To grow the bank`s balance sheet through increased customer base.</li><br>   
-    <li class="text-muted w3-card">  To maintain growth through a healthy financial position.</li><br>  
-    <li class="text-muted w3-card">  To maintain and grow quality risk assets with minimal provisioning. </li><br>  
-    <li class="text-muted w3-card">  To return good ROE to shareholders. </li><br>  
-    <li class="text-muted w3-card">  To maintain good and quality earnings.</li><br>  
-    <li class="text-muted w3-card">  To reach out to low income groups through the provision of tailored and relevant financial services.
-.
- </li><br>  
-  </ul>
-  
-</div>
-</div>
-</div>
-<div class="col-md-1 col-sm-12 col-xs-12"></div>
-
-
-
-</div>
-</div>
-
-</section><!-- End Hero -->
 
 
 
@@ -173,15 +106,10 @@ a:hover {
 <!-- ======= Footer ======= -->
 <footer id="footer">
 
-<div class="footer-newsletter" data-aos="fade-up">
-<div class="container">
-<div class="row justify-content-center">
-<div class="col-lg-6">
 
-</div>
-</div>
-</div>
-</div>
+<br><br><br>
+<br><br><br>
+<br><br><br>
 <br><br><br>
 
 

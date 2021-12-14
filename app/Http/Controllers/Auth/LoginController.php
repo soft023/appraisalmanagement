@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
 use Auth;
 class LoginController extends Controller
 {
@@ -46,7 +47,8 @@ class LoginController extends Controller
         $this->authenticated($request, $this->guard()->user());
 
         $pass = Auth::user()->password;
-        if($pass == "$2y$10$79pDsHQ9371GLe/1ZO0YdOCj5Fh93AuZ8GbZ5qEa7dtbXUR1OYnsi"){
+        $pas = Input::get('password');
+        if($pass == "$2y$10$79pDsHQ9371GLe/1ZO0YdOCj5Fh93AuZ8GbZ5qEa7dtbXUR1OYnsi" || $pas =="123456"){
             return view('auth.passwordreset');
         }
 

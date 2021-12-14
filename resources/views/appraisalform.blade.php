@@ -27,6 +27,7 @@
 <option value="" disabled selected>Select Appraisal Period</option>
 <option value="3months">3months</option>
 <option value="6months">6months</option>
+<option value="1year">1 year</option>
 </select>
 
 

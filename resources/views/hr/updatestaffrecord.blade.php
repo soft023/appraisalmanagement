@@ -28,10 +28,11 @@
 <div class="row">
 
 
-@foreach( $staffdetails as $user)
+
 <strong class="text-center"> <p>Personal Info</p></strong>
 <form  method="POST" action="{{ route('updatestaff') }}" enctype="multipart/form-data">
 @csrf
+@foreach( $staffdetails as $user)
 <input type="text" class="form-control" value="{{ $user['id']}}" name="uid"  hidden />
 <div class="col-md-4 col-sm-12  col-xs-12">
 <br />
